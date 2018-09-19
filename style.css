@@ -1,0 +1,51 @@
+.socail-button{
+    width: 40pt ;
+    height: 30pt;
+    color: grey;
+    background-color: white;
+    moz-border-radius:  5px; /* Firefox */
+    webkit-border-radius:  5px; /* Safari 4 */
+    border-radius:  5px; /* IE 9, Safari 5, Chrome */
+    border-style: solid;
+}
+div{
+    margin: 15px 15px 15px;
+    color: grey;
+}
+
+.icon{
+    box-sizing: border-box;
+    border: 2px solid grey;
+    display: inline-block;
+    padding: 3px;
+    margin: 0px 0px 0px;
+}
+
+.input-field{
+    padding: 3px;
+    display: inline-block;
+    margin: 0px 0px 0px;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    outline: none;
+}
+.login-button{
+    background-color: green;
+    moz-border-radius:  5px; /* Firefox */
+    webkit-border-radius:  5px; /* Safari 4 */
+    border-radius:  5px; /* IE 9, Safari 5, Chrome */
+    border: green solid;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    height: 60px;
+
+}
+
+/*.red {*/
+    /*background-color: red;*/
+/*}*/
+
+/*.blue {*/
+    /*background-color: blue;*/
+/*}*/

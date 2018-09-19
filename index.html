@@ -6,30 +6,40 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"></link>
     <title>My first website</title>
 </head>
 <body>
 <form action="" method="post">
-    <div class="login-field">
-    <i class="fas fa-user-alt"></i>
-   <input type="text" name="login" id="login">
-    </div>
-
-    <div class="password-field">
-    <i class="fas fa-key"></i>
-   <input type="password" name="pswd" id="pswd">
-
+    <div class="login-menu">
+        <div>
+            <div class="icon">
+                <i class="fas fa-user-alt"></i>
+            </div>
+            <div class="input-field">
+                <input type="text" name="login" id="login" placeholder="Username of e-mail" style="border-color: white; border-width: 0;">
+            </div>
+        </div>
+        <div>
+            <div class="icon">
+                 <i class="fas fa-key"></i>
+            </div>
+            <div class="input-field">
+                 <input type="password" name="pswd" id="pswd" placeholder="Password" style="border-color: white; border-width: 0;">
+            </div>
+        </div>
     </div>
     <div>Forgot password?
-        <input type="submit" name="" id="" value="LOGIN" >
+
+        <input type="submit" name="" id="" value="LOGIN" class="login-button">
     </div>
     <hr>
    <div>Create my Strock Accounts
        <br>
-       <button>
+       <button class="socail-button red">
            <i class="fab fa-google"></i>
        </button>
-       <button>
+       <button class="socail-button blue">
             <i class="fab fa-facebook-f"></i>
        </button>
    </div>
