@@ -45,6 +45,8 @@ div{
     padding: 10px;
     width: 150px;
     height: 60px;
+    margin-left: 37pt;
+
 
 }
 .line {
@@ -58,12 +60,12 @@ div{
     background-color: #ffffff;
     position: relative;
     z-index: 1;
-    padding: 0px 25px;
+    padding: 0px 20px;
 }
 .line:after {
     content: '';
     display: block;
-    width: 100%;
+    width: 94%;
     height: 2px;
     background-color: #262626;
     position: absolute;
@@ -76,6 +78,7 @@ div{
     padding: auto;
     display: inline-block;
     vertical-align: middle;
+    width: 300pt;
 
 }
 
@@ -84,6 +87,10 @@ div{
     display: inline-block;
     width: 200pt;
     vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    color:  grey;
 }
 
 
